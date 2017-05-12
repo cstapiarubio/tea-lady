@@ -1,1 +1,9 @@
-/* Escribe acá tus estilos*/
+body{
+	font-family: Verdana;
+}
+
+#seleccion{
+color:blue;
+}
+
+
