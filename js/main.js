@@ -1,5 +1,5 @@
 
-var resultado=document.getElementById("clientes")
+var resultado=document.getElementById("clientes");
 
 function mostrarData(nombre, apellido, email, direccion, fono, seleccion){
 	var nombre = document.getElementById("nombre").value;
@@ -77,7 +77,7 @@ opciones();*/
 var info=("Nombre: " + nombre + <br> + "Apellido: " + apellido + <br> + "Email: " + email+ "Dirección: "+ direccion+ <br>+ "Teléfono: "+ telefono+ <br>+ "Selección" + seleccion);
 	resultado.innerHTML=(info);
 }
-mostrarData();
+/*mostrarData();
 
 function opciones(){
 	var seleccion=document.getElementsByTagName("select");
@@ -87,4 +87,4 @@ function opciones(){
 		}
 	}
 }
-opciones();
+opciones();*/
